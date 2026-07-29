@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tharun Mangollu - Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <header>
+        <h1>THARUN MANGOLLU</h1>
+
+        <div class="contact">
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mangollutharun@gmail.com" target="_blank">
+                mangollutharun@gmail.com
+            </a>
+            |
+            <span>(+91) 7989457631</span>
+            |
+            <a href="https://github.com/tharunmangollu29-crypto" target="_blank">GitHub</a>
+            |
+            <a href="https://www.linkedin.com/in/tharun-mangollu-9a7a453a1/" target="_blank">LinkedIn</a>
+            |
+            <a href="https://leetcode.com/u/tharun_mangollu/" target="_blank">LeetCode</a>
+        </div>
+    </header>
+
+    <section>
+        <h2>Skills</h2>
+
+        <ul class="skills-list">
+            <li>Java, C, Python</li>
+            <li>HTML, CSS, JavaScript</li>
+            <li>DBMS, SQL</li>
+            <li>Data Structures and Algorithms</li>
+            <li>Git, GitHub</li>
+            <li>Artificial Intelligence</li>
+            <li>Cloud Computing</li>
+            <li>Cybersecurity</li>
+            <li>Problem Solving, Communication, Teamwork</li>
+        </ul>
+
+    </section>
+
+    <section>
+
+        <h2>Education</h2>
+
+        <div class="entry">
+
+            <div class="subheading">
+                <span>B.Tech - Computer Science and Engineering (2024-2028)</span>
+            </div>
+
+            <div class="subheading-details">
+                Anurag Engineering College | CGPA: 7.00
+            </div>
+
+        </div>
+
+        <div class="entry">
+
+            <div class="subheading">
+                <span>Intermediate (2022-2024)</span>
+            </div>
+
+            <div class="subheading-details">
+                SR Junior College | 80%
+            </div>
+
+        </div>
+
+    </section>
+
+    <section>
+
+        <h2>Projects</h2>
+
+        <ul>
+
+            <li>
+                <a href="https://github.com/tharunmangollu29-crypto/Library-Management-System" target="_blank">
+                    Library Management System
+                </a>
+            </li>
+
+        </ul>
+
+    </section>
+
+    <section>
+
+        <h2>Achievements / Certifications</h2>
+
+        <ul>
+
+            <li>
+                <a href="https://infyspringboard.onwingspan.com/public-assets/infosysheadstart/cert/lex_auth_014157696388415488167/c98f17df-7af9-4458-a0f4-4a07229eb71d.pdf" target="_blank">
+                    Infosys Springboard - Database Management System
+                </a>
+            </li>
+
+            <li>
+                <a href="https://www.linkedin.com/in/tharun-mangollu-9a7a453a1/recent-activity/all/" target="_blank">
+                    IBM SkillsBuild - AI Fundamentals: Foundations
+                </a>
+            </li>
+
+            <li>
+                <a href="https://www.linkedin.com/in/tharun-mangollu-9a7a453a1/recent-activity/all/" target="_blank">
+                    Hackathon Participation - Anurag Engineering College in collaboration with JatayuvAI & Consistency AI
+                </a>
+            </li>
+
+        </ul>
+
+    </section>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
