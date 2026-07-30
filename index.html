@@ -1,129 +1,313 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tharun Mangollu - Resume</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tharun Mangollu - Resume</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#eceff3;
+    color:#333;
+    line-height:1.6;
+    padding:40px;
+}
+
+.container{
+    max-width:900px;
+    margin:auto;
+    background:#fff;
+    padding:40px;
+    border-radius:10px;
+    box-shadow:0 8px 25px rgba(0,0,0,.1);
+}
+
+header{
+    text-align:center;
+    border-bottom:3px solid #0d6efd;
+    padding-bottom:20px;
+    margin-bottom:30px;
+}
+
+header h1{
+    color:#0d6efd;
+    font-size:36px;
+    letter-spacing:2px;
+    margin-bottom:12px;
+}
+
+.contact{
+    font-size:15px;
+    color:#555;
+}
+
+.contact a{
+    color:#0d6efd;
+    text-decoration:none;
+    font-weight:500;
+}
+
+.contact a:hover{
+    text-decoration:underline;
+}
+
+section{
+    margin-top:30px;
+}
+
+section h2{
+    color:#0d6efd;
+    border-left:5px solid #0d6efd;
+    padding-left:12px;
+    margin-bottom:15px;
+    font-size:22px;
+}
+
+.skills-list{
+    list-style:none;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:12px;
+}
+
+.skills-list li{
+    background:#f7f9fc;
+    border-left:4px solid #0d6efd;
+    padding:10px;
+    border-radius:6px;
+}
+
+.entry{
+    margin-bottom:18px;
+}
+
+.subheading{
+    font-size:18px;
+    font-weight:600;
+}
+
+.subheading-details{
+    color:#666;
+    margin-top:5px;
+}
+
+ul{
+    padding-left:20px;
+}
+
+ul li{
+    margin-bottom:12px;
+}
+
+ul li a{
+    color:#0d6efd;
+    text-decoration:none;
+    font-weight:500;
+}
+
+ul li a:hover{
+    text-decoration:underline;
+}
+
+footer{
+    text-align:center;
+    margin-top:30px;
+    color:#777;
+    font-size:14px;
+    border-top:1px solid #ddd;
+    padding-top:15px;
+}
+
+@media(max-width:768px){
+
+body{
+    padding:20px;
+}
+
+.container{
+    padding:25px;
+}
+
+.skills-list{
+    grid-template-columns:1fr;
+}
+
+.contact{
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+}
+
+header h1{
+    font-size:28px;
+}
+
+}
+</style>
+
 </head>
 
 <body>
 
 <div class="container">
 
-    <header>
-        <h1>THARUN MANGOLLU</h1>
+<header>
 
-        <div class="contact">
-            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mangollutharun@gmail.com" target="_blank">
-                mangollutharun@gmail.com
-            </a>
-            |
-            <span>(+91) 7989457631</span>
-            |
-            <a href="https://github.com/tharunmangollu29-crypto" target="_blank">GitHub</a>
-            |
-            <a href="https://www.linkedin.com/in/tharun-mangollu-9a7a453a1/" target="_blank">LinkedIn</a>
-            |
-            <a href="https://leetcode.com/u/tharun_mangollu/" target="_blank">LeetCode</a>
-        </div>
-    </header>
+<h1>THARUN MANGOLLU</h1>
 
-    <section>
-        <h2>Skills</h2>
+<div class="contact">
 
-        <ul class="skills-list">
-            <li>Java, C, Python</li>
-            <li>HTML, CSS, JavaScript</li>
-            <li>DBMS, SQL</li>
-            <li>Data Structures and Algorithms</li>
-            <li>Git, GitHub</li>
-            <li>Artificial Intelligence</li>
-            <li>Cloud Computing</li>
-            <li>Cybersecurity</li>
-            <li>Problem Solving, Communication, Teamwork</li>
-        </ul>
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=mangollutharun@gmail.com" target="_blank">
+mangollutharun@gmail.com
+</a>
 
-    </section>
+|
 
-    <section>
+<span>+91 7989457631</span>
 
-        <h2>Education</h2>
+|
 
-        <div class="entry">
+<a href="https://github.com/tharunmangollu29-crypto" target="_blank">
+GitHub
+</a>
 
-            <div class="subheading">
-                <span>B.Tech - Computer Science and Engineering (2024-2028)</span>
-            </div>
+|
 
-            <div class="subheading-details">
-                Anurag Engineering College | CGPA: 7.00
-            </div>
+<a href="https://www.linkedin.com/in/tharun-mangollu-9a7a453a1/" target="_blank">
+LinkedIn
+</a>
 
-        </div>
+|
 
-        <div class="entry">
-
-            <div class="subheading">
-                <span>Intermediate (2022-2024)</span>
-            </div>
-
-            <div class="subheading-details">
-                SR Junior College | 80%
-            </div>
-
-        </div>
-
-    </section>
-
-    <section>
-
-        <h2>Projects</h2>
-
-        <ul>
-
-            <li>
-                <a href="https://github.com/tharunmangollu29-crypto/Library-Management-System" target="_blank">
-                    Library Management System
-                </a>
-            </li>
-
-        </ul>
-
-    </section>
-
-    <section>
-
-        <h2>Achievements / Certifications</h2>
-
-        <ul>
-
-            <li>
-                <a href="https://infyspringboard.onwingspan.com/public-assets/infosysheadstart/cert/lex_auth_014157696388415488167/c98f17df-7af9-4458-a0f4-4a07229eb71d.pdf" target="_blank">
-                    Infosys Springboard - Database Management System
-                </a>
-            </li>
-
-            <li>
-                <a href="https://www.linkedin.com/in/tharun-mangollu-9a7a453a1/recent-activity/all/" target="_blank">
-                    IBM SkillsBuild - AI Fundamentals: Foundations
-                </a>
-            </li>
-
-            <li>
-                <a href="https://www.linkedin.com/in/tharun-mangollu-9a7a453a1/recent-activity/all/" target="_blank">
-                    Hackathon Participation - Anurag Engineering College in collaboration with JatayuvAI & Consistency AI
-                </a>
-            </li>
-
-        </ul>
-
-    </section>
+<a href="https://leetcode.com/u/tharun_mangollu/" target="_blank">
+LeetCode
+</a>
 
 </div>
 
-<script src="script.js"></script>
+</header>
+
+<section>
+
+<h2>Skills</h2>
+
+<ul class="skills-list">
+<li>Java, C, Python</li>
+<li>HTML, CSS, JavaScript</li>
+<li>DBMS, SQL</li>
+<li>Data Structures & Algorithms</li>
+<li>Git & GitHub</li>
+<li>Artificial Intelligence</li>
+<li>Cloud Computing</li>
+<li>Cybersecurity</li>
+<li>Problem Solving, Communication & Teamwork</li>
+<li>Object-Oriented Programming</li>
+</ul>
+
+</section>
+
+<section>
+
+<h2>Education</h2>
+
+<div class="entry">
+
+<div class="subheading">
+B.Tech - Computer Science & Engineering (2024 - 2028)
+</div>
+
+<div class="subheading-details">
+Anurag Engineering College | CGPA: 7.00
+</div>
+
+</div>
+
+<div class="entry">
+
+<div class="subheading">
+Intermediate (2022 - 2024)
+</div>
+
+<div class="subheading-details">
+SR Junior College | 80%
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Projects</h2>
+
+<ul>
+
+<li>
+
+<a href="https://github.com/tharunmangollu29-crypto/Library-Management-System" target="_blank">
+Library Management System
+</a>
+
+<br>
+
+Developed a responsive Library Management System using HTML, CSS and JavaScript with user login, book issue/return, dashboard and management features.
+
+</li>
+
+</ul>
+
+</section>
+
+<section>
+
+<h2>Achievements & Certifications</h2>
+
+<ul>
+
+<li>
+
+<a href="https://infyspringboard.onwingspan.com/public-assets/infosysheadstart/cert/lex_auth_014157696388415488167/c98f17df-7af9-4458-a0f4-4a07229eb71d.pdf" target="_blank">
+Infosys Springboard - Database Management System
+</a>
+
+</li>
+
+<li>
+
+<a href="https://www.linkedin.com/in/tharun-mangollu-9a7a453a1/" target="_blank">
+IBM SkillsBuild - AI Fundamentals
+</a>
+
+</li>
+
+<li>
+
+<a href="https://www.linkedin.com/in/tharun-mangollu-9a7a453a1/" target="_blank">
+Hackathon Participation - Anurag Engineering College
+</a>
+
+</li>
+
+</ul>
+
+</section>
+
+<footer>
+
+© 2026 Tharun Mangollu | Resume Portfolio
+
+</footer>
+
+</div>
 
 </body>
 </html>
